@@ -1,0 +1,51 @@
+.cachorro{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 20px;
+}
+.btns-pags{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+.btn-pag {
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+.btn-pag{
+    height: 200px;
+    width: 200px;
+    z-index: 999;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 3, 3);
+    border-radius: 12px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Umeko Plum';
+}
+.btn:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+@media  screen and (max-width: 1400px){
+    .cachorro{
+        width: 150px;
+        bottom: 150px;
+    }
+}
+@media  screen and (max-width: 962px) {
+    .cachorro{
+        width: 150px;
+        bottom: 150px;
+    }
+}
